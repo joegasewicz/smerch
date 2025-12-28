@@ -1,4 +1,4 @@
-# Svet
+# Smerch
 No gil Python package manager.
 
 ### Project status

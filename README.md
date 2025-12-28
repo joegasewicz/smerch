@@ -1,5 +1,5 @@
 # Smerch
-No gil Python package manager.
+A high-performance no-GIL Python package manager
 
 ### Project status
 At this stage this is just an experiment to see if I can write a package manager running

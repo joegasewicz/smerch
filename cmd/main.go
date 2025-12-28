@@ -8,7 +8,7 @@ import (
 
 func main() {
 	fmt.Println("here...")
-	locker := smerch.NewLocker()
+	locker := smerch.NewLocker("examples/smerch.lock", nil)
 	config := smerch.NewConfig()
 	pool := smerch.NewRepositoryPool()
 

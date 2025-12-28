@@ -1,0 +1,3 @@
+"""
+Python Smerch CLI
+"""

@@ -8,7 +8,7 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="smerch",
-    version="0.0.1",
+    version="0.0.2",
     description="A high-performance no-GIL Python package manager",
     long_description=long_description,
     long_description_content_type="text/markdown",

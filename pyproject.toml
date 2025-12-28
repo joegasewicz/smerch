@@ -1,6 +1,6 @@
 [project]
 name = "smerch"
-version = "0.0.1"
+version = "0.0.2"
 description = ""
 authors = [
     {name = "joegasewicz",email = "joegasewicz@gmail.com"}
@@ -18,4 +18,3 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.group.dev.dependencies]
 twine = "^6.2.0"
-

@@ -1,2 +1,5 @@
 build:
-	go build cmd/main.go
+	go build -o build/smerch-cli ./cmd
+
+run: build
+	./build/smerch-cli

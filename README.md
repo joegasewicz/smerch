@@ -1,6 +1,7 @@
 # Smerch
 A high-performance Python package manager written in Go.
 
+Inspired by Poetry & Pipenv.
 
 ### Project status
 At this stage this is just an experiment to see if I can write a package manager in Go that is considerably more performant than existing solutions.

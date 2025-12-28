@@ -1,4 +1,4 @@
-# Smerch
+# Smerch <img src="examples/smerch-logo.png" alt="Smerch Logo" width="40"/>
 A high-performance Python package manager written in Go.
 
 Inspired by [Poetry](https://python-poetry.org/) & [Pipenv](https://pipenv.pypa.io/en/latest/).

@@ -8,7 +8,8 @@ import (
 )
 
 func TestLocker_IsLocked(t *testing.T) {
-	locker := smerch.NewLocker("examples/smerch.lock")
+	pyprojectData := map[string]any{}
+	locker := smerch.NewLocker("examples/smerch.lock", &pyprojectData)
 	result := locker.IsLocked()
 	assert.Equal(t, result, true)
 }

@@ -6,14 +6,15 @@ import (
 )
 
 type Locker struct {
-	LockPath string // e.g smerch.lock
+	LockPath      string // e.g smerch.lock
+	PyprojectData *map[string]any
 }
 
 // NewLocker
-
-func NewLocker(lock string) *Locker {
+func NewLocker(lock string, pyprojectData *map[string]any) *Locker {
 	return &Locker{
-		LockPath: lock,
+		LockPath:      lock,
+		PyprojectData: pyprojectData,
 	}
 }
 

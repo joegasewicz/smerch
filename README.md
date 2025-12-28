@@ -8,5 +8,5 @@ At this stage this is just an experiment to see if I can write a package manager
 ### Why does this project exist?
 There are a growing number of Python developers that have also picked up Go.
  
-Therefore, it makes sense to build a package manager in a language that enable these developers to read & 
-understand the source code & to be able to contribute to.
+Therefore, it makes sense to build a package manager in a language that enables these developers to read & 
+understand the source code & to be able to contribute to it.

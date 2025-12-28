@@ -1,7 +1,13 @@
 package smerch
 
-type Locker struct{}
+type Locker struct {
+	LockPath string
+}
 
-func NewLocker() *Locker {
-	return &Locker{}
+// NewLocker
+// e.g smerch.lock
+func NewLocker(lock string) *Locker {
+	return &Locker{
+		LockPath: lock,
+	}
 }
